@@ -402,3 +402,7 @@ if device_type == "mobile":
     run_mobile()
 else:
     run_desktop()
+
+# --- ТЕСТ НА ВРЪЗКАТА ---
+st.sidebar.markdown("---")
+st.sidebar.success("🚀 Система: Онлайн (GitHub свързан!)")
